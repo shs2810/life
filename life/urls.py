@@ -18,6 +18,6 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^life_class/', include('life_class.urls')),
+    url(r'', include('life_class.urls')),  # 127.0.0.1:800 으로의 모든 요청은 life_class.urls로 전송한다는 뜻
 
 ]
