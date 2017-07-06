@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50dc2f10-377a-427a-afdf-ae717b656159" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/life_class/templates/life_class/life_class_detail.html" afterPath="$PROJECT_DIR$/life_class/templates/life_class/life_class_detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/life_class/templates/life_class/life_class_write.html" afterPath="$PROJECT_DIR$/life_class/templates/life_class/life_class_write.html" />
-    </list>
+    <list default="true" id="50dc2f10-377a-427a-afdf-ae717b656159" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,9 +19,9 @@
               <caret line="86" column="4" lean-forward="false" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="4" />
               <folding>
                 <element signature="n#div#2;n#div#0;n#form#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1499326192599" expanded="false" signature="2361:2563" ph="..." />
-                <marker date="1499326192599" expanded="false" signature="2616:3029" ph="..." />
-                <marker date="1499326192599" expanded="false" signature="2837:2891" ph="..." />
+                <marker date="1499326501914" expanded="false" signature="2361:2563" ph="..." />
+                <marker date="1499326501914" expanded="false" signature="2616:3029" ph="..." />
+                <marker date="1499326501914" expanded="false" signature="2837:2891" ph="..." />
               </folding>
             </state>
           </provider>
@@ -33,12 +30,12 @@
       <file leaf-file-name="life_class.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/life_class/templates/life_class/life_class.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1010">
-              <caret line="178" column="0" lean-forward="true" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+            <state relative-caret-position="-149">
+              <caret line="141" column="0" lean-forward="true" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
               <folding>
-                <marker date="1499242469969" expanded="false" signature="2060:2297" ph="..." />
-                <marker date="1499242469969" expanded="false" signature="2359:2750" ph="..." />
-                <marker date="1499242469969" expanded="false" signature="2571:2612" ph="..." />
+                <marker date="1499326501899" expanded="false" signature="2060:2297" ph="..." />
+                <marker date="1499326501899" expanded="false" signature="2359:2750" ph="..." />
+                <marker date="1499326501899" expanded="false" signature="2571:2612" ph="..." />
               </folding>
             </state>
           </provider>
@@ -48,11 +45,11 @@
         <entry file="file://$PROJECT_DIR$/life_class/templates/life_class/life_class_detail.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="809">
-              <caret line="307" column="26" lean-forward="true" selection-start-line="307" selection-start-column="26" selection-end-line="307" selection-end-column="26" />
+              <caret line="307" column="26" lean-forward="false" selection-start-line="307" selection-start-column="26" selection-end-line="307" selection-end-column="26" />
               <folding>
-                <marker date="1499321609847" expanded="false" signature="2064:2266" ph="..." />
-                <marker date="1499321609847" expanded="false" signature="2319:2727" ph="..." />
-                <marker date="1499321609847" expanded="false" signature="2540:2589" ph="..." />
+                <marker date="1499326501907" expanded="false" signature="2064:2266" ph="..." />
+                <marker date="1499326501907" expanded="false" signature="2319:2727" ph="..." />
+                <marker date="1499326501907" expanded="false" signature="2540:2589" ph="..." />
               </folding>
             </state>
           </provider>
@@ -288,7 +285,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -365,23 +362,23 @@
     <entry file="file://$PROJECT_DIR$/life_class/templates/life_class/life_class_detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="809">
-          <caret line="307" column="26" lean-forward="true" selection-start-line="307" selection-start-column="26" selection-end-line="307" selection-end-column="26" />
+          <caret line="307" column="26" lean-forward="false" selection-start-line="307" selection-start-column="26" selection-end-line="307" selection-end-column="26" />
           <folding>
-            <marker date="1499321609847" expanded="false" signature="2064:2266" ph="..." />
-            <marker date="1499321609847" expanded="false" signature="2319:2727" ph="..." />
-            <marker date="1499321609847" expanded="false" signature="2540:2589" ph="..." />
+            <marker date="1499326501907" expanded="false" signature="2064:2266" ph="..." />
+            <marker date="1499326501907" expanded="false" signature="2319:2727" ph="..." />
+            <marker date="1499326501907" expanded="false" signature="2540:2589" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/life_class/templates/life_class/life_class.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1010">
-          <caret line="178" column="0" lean-forward="true" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+        <state relative-caret-position="-149">
+          <caret line="141" column="0" lean-forward="true" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
           <folding>
-            <marker date="1499242469969" expanded="false" signature="2060:2297" ph="..." />
-            <marker date="1499242469969" expanded="false" signature="2359:2750" ph="..." />
-            <marker date="1499242469969" expanded="false" signature="2571:2612" ph="..." />
+            <marker date="1499326501899" expanded="false" signature="2060:2297" ph="..." />
+            <marker date="1499326501899" expanded="false" signature="2359:2750" ph="..." />
+            <marker date="1499326501899" expanded="false" signature="2571:2612" ph="..." />
           </folding>
         </state>
       </provider>
@@ -392,9 +389,9 @@
           <caret line="86" column="4" lean-forward="false" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="4" />
           <folding>
             <element signature="n#div#2;n#div#0;n#form#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1499326192599" expanded="false" signature="2361:2563" ph="..." />
-            <marker date="1499326192599" expanded="false" signature="2616:3029" ph="..." />
-            <marker date="1499326192599" expanded="false" signature="2837:2891" ph="..." />
+            <marker date="1499326501914" expanded="false" signature="2361:2563" ph="..." />
+            <marker date="1499326501914" expanded="false" signature="2616:3029" ph="..." />
+            <marker date="1499326501914" expanded="false" signature="2837:2891" ph="..." />
           </folding>
         </state>
       </provider>
