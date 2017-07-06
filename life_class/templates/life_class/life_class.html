@@ -39,6 +39,7 @@
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
 
+
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
                 <span class="icon-bar"></span>
@@ -168,33 +169,13 @@
         <!-- Repeat -->
         <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
-                <a href="/life_class/life_class_detail" target="_self">
+                <a href="{% url 'life_class_detail' pk=life_class_detail.pk %} %}" target="_self">
                     <img class="img-responsive" src="{% static 'img/thmb_img_01.jpg' %}"/>
                 </a>
-
-                <div class="caption">
-                    <h3 class="title">Winter Collection</h3>
-                    <h6 class="title">27세, 여자의 고민</h6>
-
-                    <div class="graph">
-                            <span class="band">
-                                <!-- 넓이 값으로 가변 -->
-                                <span class="value" style="width: 60%;"></span>
-                            </span>
-                        <a href="" class="icon"><i class="icon-wb-heart"></i> </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-                <a href="/life_class/life_class_detail" target="_self">
-                    <img class="img-responsive" src="{% static 'img/thmb_img_02.jpg' %}"/>
-                </a>
-
-                <div class="caption">
-                    <h3 class="title">Winter Collection</h3>
-                    <h6 class="title">27세, 여자의 고민</h6>
+                {% for lifeclass in lifeclasses %}
+                    <div class="caption">
+                    <h3 class="title">{{ lifeclass.title }}</h3>
+                    <h6 class="title">{{ lifeclass.year }}, {{ lifeclass.sex }}의 고민</h6>
 
                     <div class="graph">
                             <span class="band">
@@ -203,130 +184,10 @@
                             </span>
                         <a href="" class="icon"><i class="icon-wb-heart"></i> </a>
                     </div>
+                {% endfor %}
                 </div>
             </div>
         </div>
-        <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-                <a href="/life_class/life_class_detail" target="_self">
-                    <img class="img-responsive" src="{% static 'img/thmb_img_03.jpg' %}"/>
-                </a>
-
-                <div class="caption">
-                    <h3 class="title">Winter Collection</h3>
-                    <h6 class="title">27세, 여자의 고민</h6>
-
-                    <div class="graph">
-                            <span class="band">
-                                <!-- 넓이 값으로 가변 -->
-                                <span class="value" style="width: 60%;"></span>
-                            </span>
-                        <a href="" class="icon"><i class="icon-wb-heart"></i> </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-                <a href="/life_class/life_class_detail" target="_self">
-                    <img class="img-responsive" src="{% static 'img/thmb_img_04.jpg' %}"/>
-                </a>
-
-                <div class="caption">
-                    <h3 class="title">Winter Collection</h3>
-                    <h6 class="title">27세, 여자의 고민</h6>
-
-                    <div class="graph">
-                            <span class="band">
-                                <!-- 넓이 값으로 가변 -->
-                                <span class="value" style="width: 60%;"></span>
-                            </span>
-                        <a href="" class="icon"><i class="icon-wb-heart"></i> </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-                <a href="/life_class/life_class_detail" target="_self">
-                    <img class="img-responsive" src="{% static 'img/thmb_img_05.jpg' %}"/>
-                </a>
-
-                <div class="caption">
-                    <h3 class="title">Winter Collection</h3>
-                    <h6 class="title">27세, 여자의 고민</h6>
-
-                    <div class="graph">
-                            <span class="band">
-                                <!-- 넓이 값으로 가변 -->
-                                <span class="value" style="width: 60%;"></span>
-                            </span>
-                        <a href="" class="icon"><i class="icon-wb-heart"></i> </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-                <a href="/life_class/life_class_detail" target="_self">
-                    <img class="img-responsive" src="{% static 'img/thmb_img_06.jpg' %}"/>
-                </a>
-
-                <div class="caption">
-                    <h3 class="title">Winter Collection</h3>
-                    <h6 class="title">27세, 여자의 고민</h6>
-
-                    <div class="graph">
-                            <span class="band">
-                                <!-- 넓이 값으로 가변 -->
-                                <span class="value" style="width: 60%;"></span>
-                            </span>
-                        <a href="" class="icon"><i class="icon-wb-heart"></i> </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-                <a href="/life_class/life_class_detail" target="_self">
-                    <img class="img-responsive" src="{% static 'img/thmb_img_01.jpg' %}"/>
-                </a>
-
-                <div class="caption">
-                    <h3 class="title">Winter Collection</h3>
-                    <h6 class="title">27세, 여자의 고민</h6>
-
-                    <div class="graph">
-                            <span class="band">
-                                <!-- 넓이 값으로 가변 -->
-                                <span class="value" style="width: 60%;"></span>
-                            </span>
-                        <a href="" class="icon"><i class="icon-wb-heart"></i> </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-            <div class="thumbnail">
-                <a href="/life_class/life_class_detail" target="_self">
-                    <img class="img-responsive" src="{% static 'img/thmb_img_02.jpg' %}"/>
-                </a>
-
-                <div class="caption">
-                    <h3 class="title">Winter Collection</h3>
-                    <h6 class="title">27세, 여자의 고민</h6>
-
-                    <div class="graph">
-                            <span class="band">
-                                <!-- 넓이 값으로 가변 -->
-                                <span class="value" style="width: 60%;"></span>
-                            </span>
-                        <a href="" class="icon"><i class="icon-wb-heart"></i> </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <!-- END : Repeat -->
     </div>
 
