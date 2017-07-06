@@ -168,12 +168,12 @@
 
     <div class="row">
         <!-- Repeat -->
+        {% for lifeclass in lifeclasses %}
         <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
                 <a href="{% url 'life_class_detail' pk=life_class_detail.pk %} %}" target="_self">
                     <img class="img-responsive" src="{% static 'img/thmb_img_01.jpg' %}"/>
                 </a>
-                {% for lifeclass in lifeclasses %}
                     <div class="caption">
                     <h3 class="title">{{ lifeclass.title }}</h3>
                     <h6 class="title">{{ lifeclass.year }}, {{ lifeclass.sex }}의 고민</h6>
@@ -185,10 +185,10 @@
                             </span>
                         <a href="" class="icon"><i class="icon-wb-heart"></i> </a>
                     </div>
-                {% endfor %}
                 </div>
             </div>
         </div>
+        {% endfor %}
         <!-- END : Repeat -->
     </div>
 
