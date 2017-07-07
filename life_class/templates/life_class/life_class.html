@@ -26,6 +26,7 @@
 </head>
 <body id="bookmark">
 <!-- Preloader -->
+<!--
 <div id="page-preloader" class="display-table preloader-bg bg-default">
     <div class="display-table-cell vertical-middle text-center">
         <div class="page-preload-icon">
@@ -33,6 +34,7 @@
         </div>
     </div>
 </div>
+-->
 <!-- END : Preloader -->
 
 <!-- Navigation Bar -->
@@ -46,28 +48,28 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/life_class">
+            <a class="navbar-brand" href="/">
                 <img alt="Brand" src="{% static 'img/logo_white.png' %}">
             </a>
         </div>
-<!--
-        <div class="collapse navbar-collapse" id="navbar-collapse">
+        <!--
+                <div class="collapse navbar-collapse" id="navbar-collapse">
 
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="/life_class">인생수업</a></li>
-                <li><a href="../html/03bookmark-editor.html">인생맛집</a></li>
-                <li><a href="../html/05make-magazine.html">인생학교</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right nav-user">
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                        <span class="user-image" style="background-image: url(img/user-img-1.png)"></span>
-                        <span class="user-name">User Name</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        -->
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="/life_class">인생수업</a></li>
+                        <li><a href="../html/03bookmark-editor.html">인생맛집</a></li>
+                        <li><a href="../html/05make-magazine.html">인생학교</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right nav-user">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                <span class="user-image" style="background-image: url(img/user-img-1.png)"></span>
+                                <span class="user-name">User Name</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                -->
     </div>
 </nav>
 <!-- END : Navigation Bar -->
@@ -93,60 +95,60 @@
                 </ul>
             </div>
         </div>
-<!--
-        <div class="pull-right editor-btn-group">
+        <!--
+                <div class="pull-right editor-btn-group">
 
-            <div class="dropdown dropdown-tag">
-                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="true">
-                    추가하기
-                </button>
-                <div class="dropdown-menu">
-                    <form>
-                        <div class="form-group input-title">
-                            <div class="row">
-                                <label for="inputTitle" class="col-xs-2 control-label">제목</label>
-                                <div class="col-xs-10">
-                                    <input type="email" class="form-control" id="inputTitle" placeholder="">
+                    <div class="dropdown dropdown-tag">
+                        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="true">
+                            추가하기
+                        </button>
+                        <div class="dropdown-menu">
+                            <form>
+                                <div class="form-group input-title">
+                                    <div class="row">
+                                        <label for="inputTitle" class="col-xs-2 control-label">제목</label>
+                                        <div class="col-xs-10">
+                                            <input type="email" class="form-control" id="inputTitle" placeholder="">
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
+
+                                <div class="input-group input-search">
+                                    <input type="text" class="form-control" placeholder="">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default" type="button"><i class="icon-wb-search"></i></button>
+                                    </span>
+                                </div>
+
+                                <ul class="tag-list list-unstyled clearfix">
+                                    <li>전체</li>
+                                    <li>여행</li>
+                                    <li>IT/TECH</li>
+                                    <li>스포츠</li>
+                                    <li>연애</li>
+                                    <li>음악</li>
+                                    <li>엔터테인먼트</li>
+                                    <li>역사</li>
+                                    <li>여행</li>
+                                    <li>자동차</li>
+                                    <li>패션</li>
+                                    <li>과학</li>
+                                </ul>
+
+                                <ul class="tag-label list-unstyled clearfix">
+                                    <li>스포츠 <span><i class="icon-ep-cancel"></i></span></li>
+                                    <li>연애<span><i class="icon-ep-cancel"></i></span></li>
+                                    <li>음악<span><i class="icon-ep-cancel"></i></span></li>
+                                    <li>엔터테인먼트<span><i class="icon-ep-cancel"></i></span></li>
+                                    <li>역사<span><i class="icon-ep-cancel"></i></span></li>
+                                </ul>
+
+                                <button type="button" class="btn btn-primary pull-left">삭제하기</button>
+                    <button type="button" class="btn btn-primary pull-right">맞춤저장</button>
+                            </form>
                         </div>
-
-                        <div class="input-group input-search">
-                            <input type="text" class="form-control" placeholder="">
-                            <span class="input-group-btn">
-                                <button class="btn btn-default" type="button"><i class="icon-wb-search"></i></button>
-                            </span>
-                        </div>
-
-                        <ul class="tag-list list-unstyled clearfix">
-                            <li>전체</li>
-                            <li>여행</li>
-                            <li>IT/TECH</li>
-                            <li>스포츠</li>
-                            <li>연애</li>
-                            <li>음악</li>
-                            <li>엔터테인먼트</li>
-                            <li>역사</li>
-                            <li>여행</li>
-                            <li>자동차</li>
-                            <li>패션</li>
-                            <li>과학</li>
-                        </ul>
-
-                        <ul class="tag-label list-unstyled clearfix">
-                            <li>스포츠 <span><i class="icon-ep-cancel"></i></span></li>
-                            <li>연애<span><i class="icon-ep-cancel"></i></span></li>
-                            <li>음악<span><i class="icon-ep-cancel"></i></span></li>
-                            <li>엔터테인먼트<span><i class="icon-ep-cancel"></i></span></li>
-                            <li>역사<span><i class="icon-ep-cancel"></i></span></li>
-                        </ul>
-
-                        <button type="button" class="btn btn-primary pull-left">삭제하기</button>
-			<button type="button" class="btn btn-primary pull-right">맞춤저장</button>
-                    </form>
-                </div>
-            </div>
-        </div>-->
+                    </div>
+                </div>-->
     </div>
 </div>
 <!-- END : Sub Navigation -->
@@ -158,7 +160,7 @@
             <div class="editor-big-search outer30">
                 <div class="input-group input-search">
                     <input type="text" class="form-control" placeholder="Search">
-                <span class="input-group-btn">
+                    <span class="input-group-btn">
                     <button class="btn btn-default" type="button"><i class="icon-wb-search"></i></button>
                 </span>
                 </div>
@@ -174,7 +176,7 @@
                 <a href="{% url 'life_class_detail' pk=lifeclass.pk %}" target="_self">
                     <img class="img-responsive" src="{% static 'img/thmb_img_01.jpg' %}"/>
                 </a>
-                    <div class="caption">
+                <div class="caption">
                     <h3 class="title">{{ lifeclass.title }}</h3>
                     <h6 class="title">{{ lifeclass.year }}, {{ lifeclass.sex }}의 고민</h6>
 
