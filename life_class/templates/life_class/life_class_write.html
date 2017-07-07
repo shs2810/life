@@ -56,11 +56,13 @@ function FormSubmit() {
     <div class="container">
 
         <div class="navbar-header">
+            <!--
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
+            -->
             <a class="navbar-brand" href="/life_class">
                 <img alt="Brand" src="{% static 'img/logo_white.png' %}">
             </a>
@@ -172,7 +174,7 @@ function FormSubmit() {
                 <div class="form-group">
                     <label class="col-lg-3 control-label">태그:</label>
                     <div class="col-lg-8">
-                        <input class="form-control" value="" type="text">
+                        <label class="form-control" value="" type="label"></label>
                         <br>
                         <div class="editor-btn-group">
 
@@ -225,9 +227,9 @@ function FormSubmit() {
                 <div class="form-group">
                     <label class="col-md-3 control-label"></label>
                     <div class="col-md-8">
-                        <input class="btn btn-primary" value="Save Changes" type="button">
+                        <input class="btn btn-primary pull-left" value="Save Changes" type="button">
                         <span></span>
-                        <input class="btn btn-default" value="Cancel" type="reset">
+                        <input class="btn btn-default pull-right" value="Cancel" type="reset">
                     </div>
                 </div>
             </form>
