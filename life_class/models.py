@@ -11,8 +11,3 @@ class LifeClass(models.Model):
 
     def __str__(self):
         return self.title
-
-YEAR_CHOICES = [tuple([x, x]) for x in range(1920, (datetime.datetime.now().year))]
-
-class Year_select(models.Model):
-    year = models.TextField(max_length=4, choices=YEAR_CHOICES, default=1920)
