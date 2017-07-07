@@ -5,4 +5,4 @@ class LifeClassForm(forms.ModelForm):
 
     class Meta:
         model = LifeClass
-        fields = ('title', 'contents', )
+        fields = ('year', 'month', 'sex', 'contents', )
