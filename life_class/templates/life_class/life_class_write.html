@@ -108,10 +108,12 @@ function FormSubmit() {
                                             <input type="hidden" class="btn-select-input" id="" name="" value="" />
                                             <span class="btn-select-value">연도</span>
                                             <ul>
-                                            {% for year_select in year_selects %}
-                                                <li>{{ year_select.year }}</li>
-                                            {% endfor %}
+                                                <script language="javaScript" >
+                                                    for(i=1950; i<2017; ++i)
+                                                    document.write("<li value='"+(i<10 ? '0' : '')+ +i+"'>"+(i<10 ? '0' : '')+ +i+"</li>");
+                                                </script>
                                             </ul>
+                                            
                                         </a>
                                     </div>
                                     <div class="col-xs-4 col-md-4">
