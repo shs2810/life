@@ -1,5 +1,6 @@
 from django.shortcuts import render, get_object_or_404
 from .models import LifeClass
+from .forms import LifeClassForm
 
 # Create your views here.
 
@@ -12,4 +13,5 @@ def life_class_detail(request, pk):
     return render(request, 'life_class/life_class_detail.html', {'lifeclasses' : lifeclasses})
 
 def life_class_write(request):
-    return render(request, 'life_class/life_class_write.html')
+    form = LifeClassForm
+    return render(request, 'life_class/life_class_write.html', { 'form':form })

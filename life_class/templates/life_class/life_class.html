@@ -171,7 +171,7 @@
         {% for lifeclass in lifeclasses %}
         <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
-                <a href="{% url 'life_class_detail' pk=lifeclass.pk %} %}" target="_self">
+                <a href="{% url 'life_class_detail' pk=lifeclass.pk %}" target="_self">
                     <img class="img-responsive" src="{% static 'img/thmb_img_01.jpg' %}"/>
                 </a>
                     <div class="caption">
@@ -248,7 +248,7 @@
 <!-- END : FOOTER -->
 <!-- add button -->
 <div class="add_btn">
-    <button type="button" class="btn btn-primary btn-round" onclick="location.href='/life_class_write' ">+</button>
+    <button type="button" class="btn btn-primary btn-round" onclick="location.href='{% url 'life_class_write' %}'">+</button>
 </i>
 </a>
 </div>
