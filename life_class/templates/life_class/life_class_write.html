@@ -143,10 +143,12 @@ function FormSubmit() {
                                 </div>
                                 <br/>
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 ">
                                 <!-- google recaptcha -->
+                                <div class="outer0 text-center">
                                 <div class="g-recaptcha" data-sitekey="6LdO1ycUAAAAAIzYwVbR4GbkRk3IC_LuMvD30PRE"></div>
                                 </br>
+                            </div>
                             </div>
                             <br/>
                         </div>
@@ -171,52 +173,13 @@ function FormSubmit() {
                 <div class="form-group">
                     <label class="col-lg-3 control-label">태그:</label>
                     <div class="col-lg-8">
-                        <label class="form-control" value="" type="label"></label>
-                        <br>
-                        <div class="editor-btn-group">
-
-                            <div class="dropdown dropdown-tag">
-                                <button class="btn btn-primary dropdown-toggle form-control" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="false">
-                                    태그 설정하기
-                                </button>
-                                <div class="dropdown-menu">
-                                    <form>
-                                        <div class="input-group input-search">
-                                            <input type="text" class="form-control" placeholder="">
-                                            <span class="input-group-btn">
-                                            <button class="btn btn-default" type="button"><i class="icon-wb-search"></i></button>
-                                        </span>
-                                        </div>
-
-                                        <ul class="tag-list list-unstyled clearfix">
-                                            <li>전체</li>
-                                            <li>여행</li>
-                                            <li>IT/TECH</li>
-                                            <li>스포츠</li>
-                                            <li>연애</li>
-                                            <li>음악</li>
-                                            <li>엔터테인먼트</li>
-                                            <li>역사</li>
-                                            <li>여행</li>
-                                            <li>자동차</li>
-                                            <li>패션</li>
-                                            <li>과학</li>
-                                        </ul>
-
-                                        <ul class="tag-label list-unstyled clearfix">
-                                            <li>스포츠 <span><i class="icon-ep-cancel"></i></span></li>
-                                            <li>연애<span><i class="icon-ep-cancel"></i></span></li>
-                                            <li>음악<span><i class="icon-ep-cancel"></i></span></li>
-                                            <li>엔터테인먼트<span><i class="icon-ep-cancel"></i></span></li>
-                                            <li>역사<span><i class="icon-ep-cancel"></i></span></li>
-                                        </ul>
-
-                                        <button type="button" class="btn btn-primary pull-left">삭제하기</button>
-                                        <button type="button" class="btn btn-primary pull-right">맞춤저장</button>
-                                    </form>
-                                </div>
-                            </div>
+                        <div class="col-sm-6">
+                            <input type="text" class="" placeholder="#태그1" style="min-width: 220px; width: 100%;"> <!-- 자동완셩 기능을 포함시켜 태그를 유지 -->
                         </div>
+                        <div class="col-sm-6">
+                            <input type="text" class="" placeholder="#태그2" style="min-width: 220px; width: 100%;"> <!-- 자동완셩 기능을 포함시켜 태그를 유지 -->
+                        </div>
+                        <br/>
                     </div>
                 </div>
 
