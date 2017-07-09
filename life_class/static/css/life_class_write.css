@@ -80,4 +80,13 @@
     background-color: #269abc;
 }
 
-/* ul scrollblind */
+/* tag_width */
+
+.tag_width {
+    position: relative;
+    padding: 0;
+    min-width: 180px;
+    width: 100%;
+    border-radius: 0;
+    margin-bottom: 20px;
+}
