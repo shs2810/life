@@ -8,7 +8,6 @@ def life_class(request):
     return render(request, 'life_class/life_class.html', {'lifeclasses' : lifeclasses})
 
 def life_class_detail(request, pk):
-    LifeClass.objects.get(pk=pk)
     lifeclasses = get_object_or_404(LifeClass, pk=pk)
     return render(request, 'life_class/life_class_detail.html', {'lifeclasses':lifeclasses})
 
