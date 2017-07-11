@@ -15,3 +15,6 @@ def life_class_detail(request, pk):
 def life_class_write(request):
     form = LifeClassForm
     return render(request, 'life_class/life_class_write.html', { 'form':form })
+
+def life_class_comment_add(request):
+    pass
