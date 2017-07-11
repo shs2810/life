@@ -11,3 +11,4 @@ class LifeClass(models.Model):
 
     def __str__(self):
         return self.tags
+
