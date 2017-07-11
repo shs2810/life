@@ -16,6 +16,7 @@ class LifeClass(models.Model):
         return self.tags
 
 class Comment(models.Model):
-    pass
+    message = models.TextField()
+    created_at = models.DateTimeField(auto_now_add=True)
    # lifeclass = models.ForeignKey(LifeClass) #LifeClass 글이랑 댓글 1:1 관계
 
