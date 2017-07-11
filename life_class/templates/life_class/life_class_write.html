@@ -29,7 +29,7 @@
 </head>
 <body id="column-detail">
 <!-- Preloader -->
-<!--
+
 <div id="page-preloader" class="display-table preloader-bg bg-default">
     <div class="display-table-cell vertical-middle text-center">
         <div class="page-preload-icon">
@@ -37,7 +37,7 @@
         </div>
     </div>
 </div>
--->
+
 <!-- END : Preloader -->
 <script type="text/javascript">
 /* 서브밋 전에 리캡챠 체크 여부 를 확인합니다. */
@@ -63,7 +63,7 @@ function FormSubmit() {
                 <span class="icon-bar"></span>
             </button>
             -->
-            <a class="navbar-brand" href="/life_class">
+            <a class="navbar-brand" href="/">
                 <img alt="Brand" src="{% static 'img/logo_white.png' %}">
             </a>
         </div>
@@ -99,7 +99,6 @@ function FormSubmit() {
                 <div class="form-group">
                     <label class="col-lg-3 control-label">아주 간단한 절차:</label>
                     <div class="col-lg-8">
-                        <div>
                             <div class="col-sm-6">
                                 <div>
                                     <h4 class="outer0 text-center">태어난해,월, 성별을 입력해하세요</h4>
@@ -152,17 +151,6 @@ function FormSubmit() {
                             </div>
                             <br/>
                         </div>
-                        <input class="form-control btn btn-primary" value="고민 작성하기" type="button">
-                    </div>
-                    <br/>
-                </div>
-
-                <div class="form-group">
-                    <label class="col-lg-3 control-label">사진:</label>
-                    <div class="col-lg-8 text-center">
-                        <input type="file" class="text-center center-block well well-sm">
-                        <img src="http://lorempixel.com/200/200/people/9/" class="img-thumbnail" style="margin-left: auto; margin-right: auto; display: block;"
-                    </div>
                     <br/>
                 </div>
 
@@ -170,8 +158,10 @@ function FormSubmit() {
                     <label class="col-lg-3 control-label">이야기:</label>
                     <div class="col-lg-8 text-center">
                         <textarea id="inputDescription3" class="form-control" rows="3" placeholder="오늘은"></textarea>
+                        <br/>
                     </div>
                 </div>
+
 
                 <div class="form-group">
                     <label class="col-lg-3 control-label">태그:</label>
@@ -182,13 +172,15 @@ function FormSubmit() {
                         <div class="col-sm-6">
                             <input type="text" class="" placeholder="#태그2" style="min-width: 220px; width: 100%;"> <!-- 자동완셩 기능을 포함시켜 태그를 유지 -->
                         </div>
-                        <br/>
+
                     </div>
                 </div>
+
 
                 <div class="form-group">
                     <label class="col-md-3 control-label"></label>
                     <div class="col-md-8">
+                        <br/>
                         <input class="btn btn-primary pull-left" value="Save Changes" type="button">
                         <span></span>
                         <input class="btn btn-default pull-right" value="Cancel" type="reset">
