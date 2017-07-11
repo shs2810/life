@@ -7,7 +7,7 @@ class LifeClass(models.Model):
     year = models.IntegerField()
     sex = models.CharField(max_length=3)
     contents = models.TextField()
-    tags = models.CharField(max_length=50)
+    tags = models.CharField(max_length=30)
 
     def __str__(self):
         return self.tags
