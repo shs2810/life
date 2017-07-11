@@ -91,7 +91,6 @@ function FormSubmit() {
 
 <section class="container ">
 
-
     <div class="row">
         <h1 class="page-header text-center">오늘은 어떤 생각에 잠겼나요?</h1>
         <div class="col-xs-12">
@@ -99,59 +98,58 @@ function FormSubmit() {
                 <div class="form-group">
                     <label class="col-lg-3 control-label">아주 간단한 절차:</label>
                     <div class="col-lg-8">
-                            <div class="col-sm-6">
-                                <div>
-                                    <h4 class="outer0 text-center">태어난해,월, 성별을 입력해하세요</h4>
-                                </div>
-                                <br/>
-                                <div>
-                                    <div class="col-xs-4 col-md-4">
-                                        <a class="btn btn-info btn-select">
-                                            <input type="hidden" class="btn-select-input" id="" name="" value="" />
-                                            <span class="btn-select-value">연도</span>
-                                            <ul >
-                                                <script language="javaScript" >
+                        <div class="col-sm-6">
+                            <div>
+                                <h4 class="outer0 text-center">태어난 해, 월, 성별을 입력해하세요</h4>
+                            </div>
+                            <br/>
+                            <div>
+                                <div class="col-xs-4 col-md-4">
+                                    <a class="btn btn-info btn-select">
+                                        <input type="hidden" class="btn-select-input" id="" name="" value="" />
+                                        <span class="btn-select-value">연도</span>
+                                        <ul >
+                                            <script language="javaScript" >
                                                     for(i=1950; i<2017; ++i)
                                                     document.write("<li value='"+(i<10 ? '0' : '')+ +i+"'>"+(i<10 ? '0' : '')+ +i+"</li>");
                                                 </script>
-                                            </ul>
-                                        </a>
-                                    </div>
-                                    <div class="col-xs-4 col-md-4">
-                                        <a class="btn btn-info btn-select">
-                                            <input type="hidden" class="btn-select-input" id="" name="" value="" />
-                                            <span class="btn-select-value">월</span>
-                                            <ul>
-                                                <script language="javaScript" >
+                                        </ul>
+                                    </a>
+                                </div>
+                                <div class="col-xs-4 col-md-4">
+                                    <a class="btn btn-info btn-select">
+                                        <input type="hidden" class="btn-select-input" id="" name="" value="" />
+                                        <span class="btn-select-value">월</span>
+                                        <ul>
+                                            <script language="javaScript" >
                                                     for(i=1; i<13; ++i)
                                                     document.write("<li value='"+(i<10 ? '0' : '')+ +i+"'>"+(i<10 ? '0' : '')+ +i+"</li>");
                                                 </script>
-                                            </ul>
-                                        </a>
-                                    </div>
-                                    <div class="col-xs-4 col-md-4">
-                                        <a class="btn btn-info btn-select">
-                                            <input type="hidden" class="btn-select-input" id="" name="" value="" />
-                                            <span class="btn-select-value">성별</span>
-                                            <ul>
-                                                <li>여자</li>
-                                                <li class="selected">남자</li>
-                                            </ul>
-                                        </a>
-                                    </div>
+                                        </ul>
+                                    </a>
                                 </div>
-                                <br/>
-                            </div>
-                            <div class="col-sm-6 ">
-                                <!-- google recaptcha -->
-                                <div class="outer0 text-center">
-                                    <div class="g-recaptcha" data-sitekey="6LdO1ycUAAAAAIzYwVbR4GbkRk3IC_LuMvD30PRE"></div>
-                                    </br>
+                                <div class="col-xs-4 col-md-4">
+                                    <a class="btn btn-info btn-select">
+                                        <input type="hidden" class="btn-select-input" id="" name="" value="" />
+                                        <span class="btn-select-value">성별</span>
+                                        <ul>
+                                            <li>여자</li>
+                                            <li class="selected">남자</li>
+                                        </ul>
+                                    </a>
                                 </div>
                             </div>
                             <br/>
                         </div>
-                    <br/>
+                        <div class="col-sm-6 ">
+                            <!-- google recaptcha -->
+                            <div class="outer0 text-center">
+                                <div class="g-recaptcha" data-sitekey="6LdO1ycUAAAAAIzYwVbR4GbkRk3IC_LuMvD30PRE"></div>
+                                </br>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
 
                 <div class="form-group">
@@ -161,7 +159,6 @@ function FormSubmit() {
                         <br/>
                     </div>
                 </div>
-
 
                 <div class="form-group">
                     <label class="col-lg-3 control-label">태그:</label>
@@ -179,7 +176,7 @@ function FormSubmit() {
                     <label class="col-md-3 control-label"></label>
                     <div class="col-md-8">
                         <br/>
-                        <input class="btn btn-primary pull-left" value="Save Changes" type="button">
+                        <input class="btn btn-primary pull-left" value="Save Changes" type="button" action="/">
                         <span></span>
                         <input class="btn btn-default pull-right" value="Cancel" type="reset">
                     </div>
