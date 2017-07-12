@@ -1,85 +1,18 @@
-<!DOCTYPE html>
-<html lang="ko">
+{% extends 'life_class/base.html' %}
 {% load staticfiles %}  <!-- 오류 해결.. static tag 사용전에 staticfiles template tag library를 load가 필요하다. -->
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Webly</title>
+{% block cssfile %}
+<!-- Cutomize Style -->
+<link href="{% static 'css/life_class.css' %}" rel="stylesheet"/>
+{% endblock %}
 
-    <!-- Style -->
-    <!-- DEVELOP -->
-    <!--<link href="../build/css/app-blessed1.css" rel="stylesheet"/>-->
-    <!--<link href="../build/css/app.css" rel="stylesheet"/>-->
-
-    <!-- RELEASE -->
-    <link href="{% static 'dist/css/app-blessed1-1.0.0.min.css' %}" rel="stylesheet"/>
-    <link href="{% static 'dist/css/app-1.0.0.min.css' %}" rel="stylesheet"/>
-
-    <!-- Cutomize Style -->
-    <link href="{% static 'css/customize.css' %}" rel="stylesheet"/>
-
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
+{% block body_id %}
 <body id="column-detail">
-<!-- Preloader -->
+{% endblock %}
 
-<div id="page-preloader" class="display-table preloader-bg bg-default">
-    <div class="display-table-cell vertical-middle text-center">
-        <div class="page-preload-icon">
-            <i class="icon-loading-spin4 animate-spin"></i>
-        </div>
-    </div>
-</div>
-
-<!-- END : Preloader -->
-
-<!-- Navigation Bar -->
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-
-        <div class="navbar-header">
-            <!--
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            -->
-            <a class="navbar-brand" href="/">
-                <img alt="Brand" src="{% static 'img/logo_white.png' %}">
-            </a>
-        </div>
-<!--
-        <div class="collapse navbar-collapse" id="navbar-collapse">
-
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="/life_class">인생수업</a></li>
-                <li><a href="/life_place">인생맛집</a></li>
-                <li><a href="/life_school">인생학교</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li class="dropdown nav-user">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                        <span class="user-image" style="background-image: url(/static/img/user-img-1.png)"></span>
-                        <span class="user-name">User Name</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        -->
-    </div>
-</nav>
-<!-- END : Navigation Bar -->
-
+{% block content %}
 <section class="container inner30-top">
-
     <div class="row">
         <div class="col-md-10 col-lg-9 center-block">
-
             <!-- 칼럼 상세 섹션 -->
             <div class="panel panel-default column-contents outer30-bottom">
                 <div class="panel-heading">
@@ -92,11 +25,7 @@
                 </div>
                 <div class="panel-body">
                     <article class="article">
-
-                        <!-- 이미지 -->
-     
                         <p>{{ lifeclasses.contents }}</p>
-
                     </article>
                 </div>
             </div>
@@ -215,69 +144,10 @@
                         </ul>
                     </nav>
                     <!-- END : Pagination -->
-
                 </div>
             </div>
             <!-- END : 댓글 섹션 -->
-
         </div>
     </div>
-
 </section>
-
-<!-- FOOTER -->
-<footer class="footer">
-    <div class="container">
-        <div class="col-md-12">
-
-            <div class="footer-wrapper clearfix">
-                <div class="footer-first clearfix">
-                    <div class="img-wrapper">
-                        <img src="{% static 'img/logo_gray.png' %}"/>
-                    </div>
-                    <div class="text-wrapper">
-                        <p>
-                            주소 | 서울시 마포구 서교동 독막로 9길 18 서홍빌딩 2층<br/>
-                            전화번호 | <a href="tel:0200000000">02-0000-0000</a> 이메일 | <a href="mailto:yourmail@organicscan.co.kr">yourmail@organicscan.co.kr</a><br/>
-                            &copy; Webly, 2017
-                        </p>
-                    </div>
-                </div>
-
-                <div class="footer-second">
-                    <div class="sns-wrapper">
-                        <ul class="list-unstyled list-inline">
-                            <li>
-                                <a class="icon-facebook" href="#"><i class="icon-ep-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a class="icon-twitter" href="#"><i class="icon-ep-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a class="icon-googleplus" href="#"><i class="icon-ep-gplus"></i></a>
-                            </li>
-                            <li>
-                                <a class="icon-kakaotalk" href="#"><i class="icon-ep-instagram"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-<!-- END : FOOTER -->
-
-<!-- SCRIPT -->
-<!-- DEVELOP -->
-<!--<script src="../build/js/vendor.min.js"></script>-->
-<!--<script src="../build/js/app.js"></script>-->
-
-<!-- RELEASE -->
-<script src="{% static 'dist/js/default-1.0.0.js' %}"></script>
-
-<!-- Customize -->
-<script src="{% static 'js/customize.js' %}"></script>
-
-</body>
-</html>
+{% endblock %}
