@@ -1,6 +1,8 @@
 from django.shortcuts import render, get_object_or_404
 from .models import LifeClass
+from .models import Comment
 from .forms import LifeClassForm
+from .forms import CommentForm
 
 # Create your views here.
 
@@ -17,4 +19,5 @@ def life_class_write(request):
     return render(request, 'life_class/life_class_write.html', { 'form':form })
 
 def life_class_comment_add(request):
+    form = CommentForm
     pass
