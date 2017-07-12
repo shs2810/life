@@ -1,5 +1,5 @@
 from django import forms
-from .models import LifeClass
+from .models import *
 
 class LifeClassForm(forms.ModelForm):
     class Meta:

@@ -22,15 +22,13 @@ def life_class_comment_add(request):
 #life_class_write
 
 def life_class_write(request):
-    form = LifeClassForm
-    return render(request, 'life_class/life_class_write.html')
-
-def create(request):
-    if request.methos=='POST':
+    if request.method=='POST':
         form = LifeClassForm(request.POST)
-        if form.is_calid():
-            form.save()
-        return redirect('/lifeclass/list')
+        if form.is_valid():
+            lifeclass = form.save(commit=False)
+            lifeclass.created_at = timezone.now()
+            lifeclass.save()
+        return redirect('life_calss_detail', pk=lifeclass.pk)
     else:
         form = LifeClassForm()
 
