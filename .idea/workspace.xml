@@ -2,11 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50dc2f10-377a-427a-afdf-ae717b656159" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+<<<<<<< HEAD
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/life_class/templates/life_class/life_class.html" afterPath="$PROJECT_DIR$/life_class/templates/life_class/life_class.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/life_class/templates/life_class/life_class_detail.html" afterPath="$PROJECT_DIR$/life_class/templates/life_class/life_class_detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/life_class/templates/life_class/life_class_write.html" afterPath="$PROJECT_DIR$/life_class/templates/life_class/life_class_write.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/dist/css/app-blessed1-1.0.0.min.css" afterPath="$PROJECT_DIR$/static/dist/css/app-blessed1-1.0.0.min.css" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+>>>>>>> f523a182a8ec7bf2fac1132190eb8d63060ffb81
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/life_class/models.py" afterPath="$PROJECT_DIR$/life_class/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/life_class/templates/life_class/life_class_detail.html" afterPath="$PROJECT_DIR$/life_class/templates/life_class/life_class_detail.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/life_class/urls.py" afterPath="$PROJECT_DIR$/life_class/urls.py" />
+<<<<<<< HEAD
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/life_class/views.py" afterPath="$PROJECT_DIR$/life_class/views.py" />
+>>>>>>> 38d51e75189db70c237c1da089a8b72c7e8092c5
+>>>>>>> f523a182a8ec7bf2fac1132190eb8d63060ffb81
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,6 +33,14 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
+<<<<<<< HEAD
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="life_class_write.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/life_class/templates/life_class/life_class_write.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="182" column="24" lean-forward="false" selection-start-line="182" selection-start-column="24" selection-end-line="182" selection-end-column="24" />
+=======
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/life_class/models.py">
@@ -107,6 +131,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="138">
               <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
@@ -119,6 +144,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="4162">
               <caret line="219" column="22" lean-forward="true" selection-start-line="219" selection-start-column="22" selection-end-line="219" selection-end-column="22" />
+=======
+            <state relative-caret-position="69">
+              <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+>>>>>>> 38d51e75189db70c237c1da089a8b72c7e8092c5
+>>>>>>> f523a182a8ec7bf2fac1132190eb8d63060ffb81
               <folding />
             </state>
           </provider>
@@ -126,12 +156,19 @@
       </file>
     </leaf>
   </component>
+<<<<<<< HEAD
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
       </list>
     </option>
+=======
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>icon-wb-like</find>
+    </findStrings>
+>>>>>>> f523a182a8ec7bf2fac1132190eb8d63060ffb81
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -142,14 +179,26 @@
         <option value="$PROJECT_DIR$/life/urls.py" />
         <option value="$PROJECT_DIR$/life/views.py" />
         <option value="$PROJECT_DIR$/life/settings.py" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/life_class/models.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/static/dist/css/app-blessed1-1.0.0.min.css" />
+        <option value="$PROJECT_DIR$/life_class/templates/life_class/life_class.html" />
+        <option value="$PROJECT_DIR$/life_class/templates/life_class/life_class_detail.html" />
+        <option value="$PROJECT_DIR$/life_class/templates/life_class/life_class_write.html" />
+=======
         <option value="$PROJECT_DIR$/life_class/templates/life_class/life_class_write.html" />
         <option value="$PROJECT_DIR$/life_class/templates/life_class/life_class.html" />
         <option value="$PROJECT_DIR$/life_class/views.py" />
         <option value="$PROJECT_DIR$/life_class/urls.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/life_class/models.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/life_class/templates/life_class/life_class_commet.html" />
         <option value="$PROJECT_DIR$/life_class/templates/life_class/life_class_detail.html" />
+=======
+>>>>>>> 38d51e75189db70c237c1da089a8b72c7e8092c5
+>>>>>>> f523a182a8ec7bf2fac1132190eb8d63060ffb81
       </list>
     </option>
   </component>
@@ -174,6 +223,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+      <pane id="Scratches" />
+      <pane id="Scope" />
+=======
+>>>>>>> 38d51e75189db70c237c1da089a8b72c7e8092c5
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -183,38 +237,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="life" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="life" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="life" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="life" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="life" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -381,19 +403,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+=======
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+>>>>>>> 38d51e75189db70c237c1da089a8b72c7e8092c5
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24895833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -412,6 +438,20 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/life_class/templates/life_class/life_class_write.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="66" column="29" lean-forward="false" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dist/css/app-blessed1-1.0.0.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="44236" lean-forward="false" selection-start-line="0" selection-start-column="44236" selection-end-line="0" selection-end-column="44236" />
+=======
     <entry file="file://$PROJECT_DIR$/life_class/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -434,14 +474,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4117">
           <caret line="179" column="12" lean-forward="true" selection-start-line="179" selection-start-column="12" selection-end-line="179" selection-end-column="12" />
+>>>>>>> 38d51e75189db70c237c1da089a8b72c7e8092c5
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/life_class/templates/life_class/life_class_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3078">
+          <caret line="162" column="73" lean-forward="false" selection-start-line="162" selection-start-column="73" selection-end-line="162" selection-end-column="73" />
+=======
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+>>>>>>> 38d51e75189db70c237c1da089a8b72c7e8092c5
           <folding />
         </state>
       </provider>
@@ -566,6 +614,19 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/life_class/migrations/0002_lifeclass_tags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
     <entry file="file://$PROJECT_DIR$/life_class/templates/life_class/life_class.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4025">
@@ -579,11 +640,20 @@
         <state relative-caret-position="161">
           <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
           <folding />
+>>>>>>> 38d51e75189db70c237c1da089a8b72c7e8092c5
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/life_class/urls.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="228">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dist/css/app-blessed1-1.0.0.min.css">
+=======
         <state relative-caret-position="230">
           <caret line="10" column="103" lean-forward="false" selection-start-line="10" selection-start-column="103" selection-end-line="10" selection-end-column="103" />
           <folding>
@@ -600,18 +670,39 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/life_class/migrations/0003_auto_20170711_1658.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+=======
+    <entry file="file://$PROJECT_DIR$/life_class/migrations/0001_initial.py">
+>>>>>>> 38d51e75189db70c237c1da089a8b72c7e8092c5
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="0" column="44350" lean-forward="false" selection-start-line="0" selection-start-column="44350" selection-end-line="0" selection-end-column="44350" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/life_class/templates/life_class/life_class_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="51" column="43" lean-forward="false" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
+>>>>>>> f523a182a8ec7bf2fac1132190eb8d63060ffb81
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/life_class/forms.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="19">
+          <caret line="45" column="16" lean-forward="false" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+=======
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
@@ -632,6 +723,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="244" column="32" lean-forward="false" selection-start-line="244" selection-start-column="32" selection-end-line="244" selection-end-column="32" />
+=======
+>>>>>>> 38d51e75189db70c237c1da089a8b72c7e8092c5
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/life_class/templates/life_class/life_class_write.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="182" column="24" lean-forward="false" selection-start-line="182" selection-start-column="24" selection-end-line="182" selection-end-column="24" />
+=======
+    <entry file="file://$PROJECT_DIR$/life_class/migrations/0003_auto_20170711_1648.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 38d51e75189db70c237c1da089a8b72c7e8092c5
+>>>>>>> f523a182a8ec7bf2fac1132190eb8d63060ffb81
           <folding />
         </state>
       </provider>

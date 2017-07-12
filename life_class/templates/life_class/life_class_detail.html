@@ -26,7 +26,7 @@
 </head>
 <body id="column-detail">
 <!-- Preloader -->
-<!--
+
 <div id="page-preloader" class="display-table preloader-bg bg-default">
     <div class="display-table-cell vertical-middle text-center">
         <div class="page-preload-icon">
@@ -34,7 +34,7 @@
         </div>
     </div>
 </div>
--->
+
 <!-- END : Preloader -->
 
 <!-- Navigation Bar -->
@@ -42,12 +42,14 @@
     <div class="container">
 
         <div class="navbar-header">
+            <!--
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="">
+            -->
+            <a class="navbar-brand" href="/">
                 <img alt="Brand" src="{% static 'img/logo_white.png' %}">
             </a>
         </div>
@@ -84,44 +86,17 @@
                     <header class="header bg-img display-table" style="background-image:url(/static/img/thmb_img_01.jpg);">
                         <div class="display-table-cell vertical-middle">
                             <div class="overlay"></div>
-                            <h1>{{ lifeclasses.title }}</h1>
+                            <h1>{{ lifeclasses.tags }}</h1>
                         </div>
                     </header>
                 </div>
                 <div class="panel-body">
                     <article class="article">
 
-                        <h2 class="sub-title">{{ lifeclasses.contents }}</h2>
                         <!-- 이미지 -->
-                        <img class="img-responsive" src="{% static 'img/detail-thumb.jpg' %}"/>
+     
+                        <p>{{ lifeclasses.contents }}</p>
 
-
-                        <p>각종 텍스트 내용이 들어갑니다. 블라블라 블라가 들어갑니다. 각종 텍스트 내용이 들어갑니다. 블라블라 블라가 들어갑니다. 각종 텍스트 내용이 들어갑니다. 블라블라 블라가 들어갑니다. 각종 텍스트 내용이 들어갑니다. 블라블라 블라가 들어갑니다. 각종 텍스트 내용이 들어갑니다. 블라블라 블라가 들어갑니다.</p>
-
-                        <!-- 비디오 (Youtube) -->
-<!--                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wEQpfil0IYA?loop=1&autoplay=1&playlist=wEQpfil0IYA"></iframe>
-                        </div>
--->
-                        <!-- 비디오 (File) -->
-                        <!--<div class="embed-responsive embed-responsive-16by9">-->
-                        <!--<video controls>-->
-                        <!--<source src="src..." type="video/mp4"/>-->
-                        <!--</video>-->
-                        <!--</div>-->
-
-                        <!-- 이미지 -->
-                        <!--<img class="img-responsive" src="../img/thmb_img_05.jpg"/>-->
-
-                        <!-- 오디오 -->
-                        <!--<audio controls>-->
-                        <!--<source src="src..." type="audio/ogg">-->
-                        <!--<source src="src..." type="audio/mpeg">-->
-                        <!--</audio>-->
-<!--                        <h2 class="sub-title">Sub Title</h2>
-
-                        <p>각종 텍스트 내용이 들어갑니다. 블라블라 블라가 들어갑니다. 각종 텍스트 내용이 들어갑니다. 블라블라 블라가 들어갑니다. 각종 텍스트 내용이 들어갑니다. 블라블라 블라가 들어갑니다. 각종 텍스트 내용이 들어갑니다. 블라블라 블라가 들어갑니다. 각종 텍스트 내용이 들어갑니다. 블라블라 블라가 들어갑니다.</p>
--->
                     </article>
                 </div>
             </div>
@@ -183,9 +158,9 @@
                                 Really grateful for the summer internship I just secured with Puma. It was so great consulting with them for my project, now i’m working for them! #employed
                             </div>
                             <div class="comment-func">
-                                <span><a href=""><i class="icon-wb-like"></i></a>256</span>
+                                <span><a href=""><i class="icon-wb-like"></i></a></span>
+                                <span><a href=""><i class="icon-wb-heart"></i></a></span>
                                 <span><a href=""><i class="icon-wb-hate"></i></a></span>
-                                <span><a href=""><i class="icon-wb-reply"></i></a>17</span>
                             </div>
                         </li>
                         <li class="comment-item">
@@ -193,9 +168,9 @@
                                 Really grateful for the summer internship I just secured with Puma. It was so great consulting with them for my project, now i’m working for them! #employed
                             </div>
                             <div class="comment-func">
-                                <span><a href=""><i class="icon-wb-like"></i></a>256</span>
+                                <span><a href=""><i class="icon-wb-like"></i></a></span>
+                                <span><a href=""><i class="icon-wb-heart"></i></a></span>
                                 <span><a href=""><i class="icon-wb-hate"></i></a></span>
-                                <span><a href=""><i class="icon-wb-reply"></i></a>17</span>
                             </div>
                         </li>
                         <li class="comment-item">
@@ -203,9 +178,9 @@
                                 Really grateful for the summer internship I just secured with Puma. It was so great consulting with them for my project, now i’m working for them! #employed
                             </div>
                             <div class="comment-func">
-                                <span><a href=""><i class="icon-wb-like"></i></a>256</span>
+                                <span><a href=""><i class="icon-wb-like"></i></a></span>
+                                <span><a href=""><i class="icon-wb-heart"></i></a></span>
                                 <span><a href=""><i class="icon-wb-hate"></i></a></span>
-                                <span><a href=""><i class="icon-wb-reply"></i></a>17</span>
                             </div>
                         </li>
                         <li class="comment-item">
@@ -213,9 +188,9 @@
                                 Really grateful for the summer internship I just secured with Puma. It was so great consulting with them for my project, now i’m working for them! #employed
                             </div>
                             <div class="comment-func">
-                                <span><a href=""><i class="icon-wb-like"></i></a>256</span>
+                                <span><a href=""><i class="icon-wb-like"></i></a></span>
+                                <span><a href=""><i class="icon-wb-heart"></i></a></span>
                                 <span><a href=""><i class="icon-wb-hate"></i></a></span>
-                                <span><a href=""><i class="icon-wb-reply"></i></a>17</span>
                             </div>
                         </li>
                     </ul>
