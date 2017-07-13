@@ -12,12 +12,7 @@ urlpatterns = [
     # ex) 127.0.0.1:8000/life_class_detail/5/ 이면 life_calss_detail 뷰를 찾아 매개변수 pk가 5인 값을 찾아 뷰로 전달
     ##life_class_write
     url(r'^life_class/life_class_write/$', views.life_class_write, name='life_class_write'),
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    url(r'^create/$', views.create, name='create'),
->>>>>>> 9f0ee2222fbc4ec8c79cb179507bc0175323b4be
 
-=======
->>>>>>> oh
+    url(r'^create/$', views.create, name='create'),
+
 ]
