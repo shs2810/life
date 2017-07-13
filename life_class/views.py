@@ -19,5 +19,4 @@ def life_class_write(request):
     return render(request, 'life_class/life_class_write.html', { 'form':form })
 
 def life_class_comment_add(request):
-    form = CommentForm
     pass
