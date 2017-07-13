@@ -52,9 +52,7 @@
 
     <div class="row">
         <!-- Repeat -->
-
         {% for lifeclass in lifeclasses %}
-
         <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
                 <a href="{% url 'life_class_detail' pk=lifeclass.pk %}" target="_self">
@@ -62,7 +60,7 @@
                 </a>
                 <div class="caption">
                     <h3 class="title">{{ lifeclass.tags }}</h3> <!-- tags 으로 수정해야함 -->
-                    <h6 class="title">{{ lifeclass.year }}, {{ lifeclass.sex }}의 고민 </h6>
+                    <h6 class="title">{{ lifeclass.year }}, {{ lifeclass.sex }}의 고민</h6>
                     <div class="graph">
                             <span class="band">
                                 <!-- 넓이 값으로 가변 -->

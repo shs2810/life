@@ -54,7 +54,6 @@
                                 <button type="button" class="btn btn-primary">공감</button>
                                 <button type="button" class="btn btn-default">보통</button>
                                 <button type="button" class="btn btn-default">비공감</button>
-                                {{ lifeclasses.pk }}
                             </div>
                         </div>
                     </div>
@@ -67,27 +66,55 @@
                 <div class="panel-heading">
                     <!-- Comment Input-->
                     <div class="form-group comment-input display-table outer30">
+
                         <div class="input-group">
-                            <form method="POST" class="post-form">{% csrf_token %}
-                                {{ form.as_p }}
-                                <span class="input-group-btn">
-                                    <button class="btn btn-primary" type="submit" onclick="location.href='{% url 'life_class_detail' pk=lifeclasses.pk%}'">입력</button>
-                                </span>
-                            </form>
+                            <input type="text" class="form-control" placeholder="write a comment...">
+                            <span class="input-group-btn">
+                                <button class="btn btn-primary" type="button">입력</button>
+                             </span>
                         </div>
                     </div>
                     <!-- END : Comment Input-->
-                    <h4 class="outer0">{{ lifeclasses.comments.all }}</h4>
+                    <h4 class="outer0">14 Comments</h4>
                     <!-- END : Comment Input-->
                 </div>
                 <div class="panel-body">
 
                     <!-- Comments -->
-                    {% for comment in lifeclasses.comments.all %}
                     <ul class="list-unstyled outer0">
                         <li class="comment-item">
                             <div class="comment-text">
-                                {{ comment.message}}
+                                Really grateful for the summer internship I just secured with Puma. It was so great consulting with them for my project, now i’m working for them! #employed
+                            </div>
+                            <div class="comment-func">
+                                <span><a href=""><i class="icon-wb-like"></i></a></span>
+                                <span><a href=""><i class="icon-wb-heart"></i></a></span>
+                                <span><a href=""><i class="icon-wb-hate"></i></a></span>
+                            </div>
+                        </li>
+                        <li class="comment-item">
+                            <div class="comment-text">
+                                Really grateful for the summer internship I just secured with Puma. It was so great consulting with them for my project, now i’m working for them! #employed
+                            </div>
+                            <div class="comment-func">
+                                <span><a href=""><i class="icon-wb-like"></i></a></span>
+                                <span><a href=""><i class="icon-wb-heart"></i></a></span>
+                                <span><a href=""><i class="icon-wb-hate"></i></a></span>
+                            </div>
+                        </li>
+                        <li class="comment-item">
+                            <div class="comment-text">
+                                Really grateful for the summer internship I just secured with Puma. It was so great consulting with them for my project, now i’m working for them! #employed
+                            </div>
+                            <div class="comment-func">
+                                <span><a href=""><i class="icon-wb-like"></i></a></span>
+                                <span><a href=""><i class="icon-wb-heart"></i></a></span>
+                                <span><a href=""><i class="icon-wb-hate"></i></a></span>
+                            </div>
+                        </li>
+                        <li class="comment-item">
+                            <div class="comment-text">
+                                Really grateful for the summer internship I just secured with Puma. It was so great consulting with them for my project, now i’m working for them! #employed
                             </div>
                             <div class="comment-func">
                                 <span><a href=""><i class="icon-wb-like"></i></a></span>
@@ -96,8 +123,6 @@
                             </div>
                         </li>
                     </ul>
-                    {% endfor %}
-                    <hr>
 
                     <!-- Pagination -->
                     <nav class="text-center">
