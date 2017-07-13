@@ -8,7 +8,6 @@ class LifeClassForm(forms.ModelForm):
         fields = ('year', 'month', 'sex', 'contents', 'tags')
 
 class CommentForm(forms.ModelForm):
-    pass
-   # class Meta:
-       # model = Comment
-      #  fields = ('message')
+    class Meta:
+        model = Comment
+        fields = ('message',)
