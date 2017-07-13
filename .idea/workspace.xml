@@ -1,33 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
     <list default="true" id="50dc2f10-377a-427a-afdf-ae717b656159" name="Default" comment="">
-<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-=======
-<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/life_class/templates/life_class/life_class.html" afterPath="$PROJECT_DIR$/life_class/templates/life_class/life_class.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/life_class/templates/life_class/life_class_detail.html" afterPath="$PROJECT_DIR$/life_class/templates/life_class/life_class_detail.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/life_class/templates/life_class/life_class_write.html" afterPath="$PROJECT_DIR$/life_class/templates/life_class/life_class_write.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/dist/css/app-blessed1-1.0.0.min.css" afterPath="$PROJECT_DIR$/static/dist/css/app-blessed1-1.0.0.min.css" />
-=======
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
->>>>>>> f523a182a8ec7bf2fac1132190eb8d63060ffb81
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/life_class/models.py" afterPath="$PROJECT_DIR$/life_class/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/life_class/templates/life_class/life_class_detail.html" afterPath="$PROJECT_DIR$/life_class/templates/life_class/life_class_detail.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/life_class/urls.py" afterPath="$PROJECT_DIR$/life_class/urls.py" />
-<<<<<<< HEAD
-=======
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/life_class/views.py" afterPath="$PROJECT_DIR$/life_class/views.py" />
->>>>>>> 38d51e75189db70c237c1da089a8b72c7e8092c5
->>>>>>> f523a182a8ec7bf2fac1132190eb8d63060ffb81
     </list>
-=======
-    <list default="true" id="50dc2f10-377a-427a-afdf-ae717b656159" name="Default" comment="" />
->>>>>>> oh
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,13 +25,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-<<<<<<< HEAD
-      <file leaf-file-name="life_class_write.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/life_class/templates/life_class/life_class_write.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="182" column="24" lean-forward="false" selection-start-line="182" selection-start-column="24" selection-end-line="182" selection-end-column="24" />
-=======
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/life_class/models.py">
@@ -135,31 +115,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="138">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="life_class_write.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/life_class/templates/life_class/life_class_write.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4162">
-              <caret line="219" column="22" lean-forward="true" selection-start-line="219" selection-start-column="22" selection-end-line="219" selection-end-column="22" />
-=======
             <state relative-caret-position="69">
               <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
->>>>>>> 38d51e75189db70c237c1da089a8b72c7e8092c5
->>>>>>> f523a182a8ec7bf2fac1132190eb8d63060ffb81
-=======
-      <file leaf-file-name="life_class.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/life_class/templates/life_class/life_class.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
->>>>>>> oh
               <folding />
             </state>
           </provider>
@@ -167,26 +124,17 @@
       </file>
     </leaf>
   </component>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> oh
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
       </list>
     </option>
-<<<<<<< HEAD
-=======
-=======
   </component>
->>>>>>> oh
   <component name="FindInProjectRecents">
     <findStrings>
       <find>icon-wb-like</find>
-    </findStrings>
->>>>>>> f523a182a8ec7bf2fac1132190eb8d63060ffb81
+    </findStrings
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -208,22 +156,14 @@
         <option value="$PROJECT_DIR$/life_class/templates/life_class/life_class.html" />
         <option value="$PROJECT_DIR$/life_class/templates/life_class/life_class_detail.html" />
         <option value="$PROJECT_DIR$/life_class/templates/life_class/life_class_write.html" />
-<<<<<<< HEAD
-=======
         <option value="$PROJECT_DIR$/life_class/templates/life_class/life_class_write.html" />
         <option value="$PROJECT_DIR$/life_class/templates/life_class/life_class.html" />
         <option value="$PROJECT_DIR$/life_class/views.py" />
         <option value="$PROJECT_DIR$/life_class/urls.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/life_class/models.py" />
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/life_class/templates/life_class/life_class_commet.html" />
         <option value="$PROJECT_DIR$/life_class/templates/life_class/life_class_detail.html" />
-=======
->>>>>>> 38d51e75189db70c237c1da089a8b72c7e8092c5
->>>>>>> f523a182a8ec7bf2fac1132190eb8d63060ffb81
-=======
->>>>>>> oh
       </list>
     </option>
   </component>
@@ -357,11 +297,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-=======
     <property name="last_opened_file_path" value="C:/webly1/webly" />
->>>>>>> oh
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
@@ -685,16 +622,6 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/life_class/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-=======
     <entry file="file://$PROJECT_DIR$/life_class/templates/life_class/life_class_detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="579">
@@ -706,12 +633,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/life_class/migrations/0003_auto_20170711_1648.py" />
->>>>>>> oh
     <entry file="file://$PROJECT_DIR$/life_class/migrations/0002_lifeclass_tags.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-<<<<<<< HEAD
           <folding />
         </state>
       </provider>
@@ -729,7 +654,6 @@
         <state relative-caret-position="138">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
-=======
         </state>
       </provider>
     </entry>
@@ -737,7 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
->>>>>>> oh
         </state>
       </provider>
     </entry>
@@ -752,8 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-<<<<<<< HEAD
-=======
     <entry file="file://$PROJECT_DIR$/life_class/templates/life_class/life_class.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4025">
@@ -767,8 +688,6 @@
         <state relative-caret-position="161">
           <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
           <folding />
->>>>>>> 38d51e75189db70c237c1da089a8b72c7e8092c5
-=======
         </state>
       </provider>
     </entry>
@@ -776,7 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
->>>>>>> oh
         </state>
       </provider>
     </entry>
@@ -790,17 +708,13 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/static/dist/css/app-blessed1-1.0.0.min.css">
-=======
         <state relative-caret-position="230">
           <caret line="10" column="103" lean-forward="false" selection-start-line="10" selection-start-column="103" selection-end-line="10" selection-end-column="103" />
-=======
     <entry file="file://$PROJECT_DIR$/life_class/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
->>>>>>> oh
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
@@ -809,29 +723,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/life/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="391">
           <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/life_class/migrations/0003_auto_20170711_1658.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-=======
     <entry file="file://$PROJECT_DIR$/life_class/migrations/0001_initial.py">
->>>>>>> 38d51e75189db70c237c1da089a8b72c7e8092c5
-=======
         <state relative-caret-position="310">
           <caret line="23" column="71" lean-forward="false" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/life_class/urls.py">
->>>>>>> oh
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
@@ -841,28 +749,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/life_class/models.py">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="266">
-          <caret line="51" column="43" lean-forward="false" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
->>>>>>> f523a182a8ec7bf2fac1132190eb8d63060ffb81
-=======
         <state relative-caret-position="285">
           <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
->>>>>>> oh
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/life_class/forms.py">
-=======
     <entry file="file://$PROJECT_DIR$/life_class/static/css/life_class_detail.css">
->>>>>>> oh
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-<<<<<<< HEAD
-<<<<<<< HEAD
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
@@ -883,11 +780,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="244" column="32" lean-forward="false" selection-start-line="244" selection-start-column="32" selection-end-line="244" selection-end-column="32" />
-=======
->>>>>>> 38d51e75189db70c237c1da089a8b72c7e8092c5
           <folding />
-=======
->>>>>>> oh
         </state>
       </provider>
     </entry>
@@ -902,9 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-<<<<<<< HEAD
->>>>>>> 38d51e75189db70c237c1da089a8b72c7e8092c5
->>>>>>> f523a182a8ec7bf2fac1132190eb8d63060ffb81
           <folding />
         </state>
       </provider>
@@ -914,7 +804,6 @@
         <state relative-caret-position="4162">
           <caret line="219" column="22" lean-forward="true" selection-start-line="219" selection-start-column="22" selection-end-line="219" selection-end-column="22" />
           <folding />
-=======
         </state>
       </provider>
     </entry>
@@ -932,7 +821,6 @@
           <folding>
             <element signature="n#style#0;n#header#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#!!top" expanded="true" />
           </folding>
->>>>>>> oh
         </state>
       </provider>
     </entry>

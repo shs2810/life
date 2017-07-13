@@ -14,6 +14,5 @@ urlpatterns = [
 
     ##life_class_write
     url(r'^life_class/life_class_write/$', views.life_class_write, name='life_class_write'),
-    url(r'^create/$', views.create, name='create'),
 
 ]
