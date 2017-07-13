@@ -34,7 +34,7 @@ class CommentForm(forms.ModelForm):
    # class Meta:
        # model = Comment
       #  fields = ('message')
-=======
+=======++
         fields = ('year', 'month','sex','contents','tags',)
 >>>>>>> oh
 =======
