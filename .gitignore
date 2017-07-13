@@ -4,5 +4,9 @@
 __pycache__
 myvenv
 .DS_Store
+<<<<<<< HEAD
 .idea
 *.pyc
+=======
+*.xml
+>>>>>>> oh
