@@ -6,7 +6,7 @@ class LifeClassForm(forms.ModelForm):
         model = LifeClass
 <<<<<<< HEAD
 <<<<<<< HEAD
-        fields = ('year', 'month', 'sex', 'contents', 'tags')
+        fields =  ('year', 'month', 'sex', 'contents', 'tags')
 
 class CommentForm(forms.ModelForm):
 <<<<<<< HEAD
