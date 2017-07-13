@@ -29,6 +29,7 @@ class LifeClassForm(forms.ModelForm):
         fields = ('year', 'month', 'sex', 'contents', 'tags')
 
 class CommentForm(forms.ModelForm):
+<<<<<<< HEAD
     pass
    # class Meta:
        # model = Comment
@@ -36,3 +37,8 @@ class CommentForm(forms.ModelForm):
 =======
         fields = ('year', 'month','sex','contents','tags',)
 >>>>>>> oh
+=======
+    class Meta:
+        model = Comment
+        fields = ('message',)
+>>>>>>> 9f0ee2222fbc4ec8c79cb179507bc0175323b4be
