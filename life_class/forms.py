@@ -2,16 +2,11 @@ from django import forms
 from .models import *
 
 class LifeClassForm(forms.ModelForm):
-    sex = { '남자', '여자' }
-    year = forms.ChoiceField(
-        label='연도',
-        choices=[(x, x) for x in range(1950, 2017)])
-    month = forms.ChoiceField(
-        label='월',
-        choices=[(x, x) for x in range(1, 12)])
-    sex = forms.ChoiceField(
+    year = forms.IntegerField()
+    month = forms.IntegerField()
+    sex = forms.CharField(
         label='성별',
-        choices=[(x, x)  for x in sex])
+        widget=forms.TextInput(attrs={'size':5}))
     contents = forms.CharField(
         label='이야기',
         widget=forms.Textarea )

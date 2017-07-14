@@ -24,28 +24,23 @@
                             </div>
                             <br/>
                             <div>
-                                <div class="col-xs-4 col-md-4">{{ form.year }}
-                                        {% csrf_token %}
-                                        <!--
+                                <div class="col-xs-4 col-md-4">
                                     <a class="btn btn-info btn-select">
-
-                                        <input type="hidden" class="btn-select-input" id="" name="year" value="" />
-                                        <span class="btn-select-value">연도{{ form.lifeclass.year }}</span>
+                                        {% csrf_token %}
+                                        <input type="hidden" class="btn-select-input" id="year" name="year" value="{{ year }}">
+                                        <span class="btn-select-value">연도</span>
                                         <ul>
                                             <script language="javaScript" >
                                                     for(i=1950; i<2017; ++i)
                                                     document.write("<li value='"+(i<10 ? '0' : '')+ +i+"'>"+(i<10 ? '0' : '')+ +i+"</li>");
                                             </script>
                                         </ul>
-
-                                    </a> -->
+                                    </a>
                                 </div>
-                                <div class="col-xs-4 col-md-4">{{ form.month }}
-                                        {% csrf_token %}
-                                        <!--
+                                <div class="col-xs-4 col-md-4">
                                     <a class="btn btn-info btn-select">
-
-                                        <input type="hidden" class="btn-select-input" id="" name="" value="" />
+                                        {% csrf_token %}
+                                        <input type="hidden" class="btn-select-input" id="month" name="month" value="{{ month }}">
                                         <span class="btn-select-value">월</span>
                                         <ul>
                                             <script language="javaScript" >
@@ -53,22 +48,19 @@
                                                     document.write("<li value='"+(i<10 ? '0' : '')+ +i+"'>"+(i<10 ? '0' : '')+ +i+"</li>");
                                              </script>
                                         </ul>
-
-                                    </a>-->
+                                    </a>
                                 </div>
-                                <div class="col-xs-4 col-md-4">{{ form.sex }}
-                                        {% csrf_token %}
-                                        <!--
-                                    <a class="btn btn-info btn-select">
+                                <div class="col-xs-4 col-md-4">
 
-                                        <input type="hidden" class="btn-select-input" id="" name="" value="" />
+                                    <a class="btn btn-info btn-select">
+                                        {% csrf_token %}
+                                        <input type="hidden" class="btn-select-input" id="sex" name="sex" value="{{ sex }}" />
                                         <span class="btn-select-value">성별</span>
                                         <ul>
                                             <li>여자</li>
                                             <li class="selected">남자</li>
                                         </ul>
-
-                                    </a>-->
+                                    </a>
                                 </div>
                             </div>
                             <br/>
@@ -79,13 +71,13 @@
                                 {% csrf_token %}
                                 <script src='https://www.google.com/recaptcha/api.js'></script>
                                 <div class="g-recaptcha" data-sitekey="6LdO1ycUAAAAAIzYwVbR4GbkRk3IC_LuMvD30PRE"></div>
-                                {% if messages %}
-                                <ul class="messages">
-                                    {% for message in messages %}
-                                    <span {% if message.tags %} class="pull-left {{ message.tags }}"{% endif %} >{{ message }}</span>
-                                    {% endfor %}
-                                </ul>
-                                {% endif %}
+                                  {% if messages %}
+                                  <script type="text/javascript">
+                                  {% for message in messages %}
+                                  alert("{{ message.message }}");
+                                  {% endfor %}
+                                  </script>
+                                  {% endif %}
                                 </br>
                             </div>
                         </div>
@@ -94,11 +86,8 @@
                 <div class="form-group">
                     <label class="col-lg-3 control-label">이야기:</label>
                     <div class="col-lg-8 text-center">
-                        {{ form.contents }}
                         {% csrf_token %}
-                        <!--
-                        <textarea id="inputDescription3" class="form-control" rows="3" placeholder="오늘은"></textarea>
-                        -->
+                        <textarea id="contents" class="form-control" rows="3" placeholder="오늘은" name="contents" value="{{ contents }}"></textarea>
                         <br/>
                     </div>
                 </div>
@@ -107,10 +96,8 @@
                     <label class="col-lg-3 control-label">태그:</label>
                     <div class="col-lg-8">
                         <div class="col-sm-6">
-                            {{ form.tags }}
                             {% csrf_token %}
-                            <!--
-                            <input type="text" class="" placeholder="#태그1" style="min-width: 220px; width: 100%;">--> <!-- 자동완셩 기능을 포함시켜 태그를 유지 -->
+                            <input type="text" class="" placeholder="#태그1" style="min-width: 220px; width: 100%;" name="tags"> <!-- 자동완셩 기능을 포함시켜 태그를 유지 -->
                         </div>
                         <div class="col-sm-6">
                             <!--
