@@ -7,3 +7,5 @@ myvenv
 *.xml
 *.xml
 *.xml
+*.pyc
+*.xml

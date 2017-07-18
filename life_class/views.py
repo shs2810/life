@@ -42,11 +42,11 @@ def life_class_write(request):
                 lifeclass.created_at = timezone.now()
                 lifeclass.save()
             else:
-                return render(request, 'life_class/life_class_write.html', {'form': form})
+                return render(request, 'life_class/life_class_write.html', { 'form' : form })
             return redirect('life_class_detail', pk=lifeclass.pk)
     else:
         form = LifeClassForm()
-    return render(request, 'life_class/life_class_write.html', { 'form':form })
+    return render(request, 'life_class/life_class_write.html', { 'form' : form })
 
 
 
