@@ -42,12 +42,10 @@ def life_class_write(request):
                 lifeclass.created_at = timezone.now()
                 lifeclass.save()
             else:
-                messages.error(request, '체크 해주세요')
                 return render(request, 'life_class/life_class_write.html', {'form': form})
             return redirect('life_class_detail', pk=lifeclass.pk)
     else:
         form = LifeClassForm()
-
     return render(request, 'life_class/life_class_write.html', { 'form':form })
 
 

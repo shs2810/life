@@ -70,7 +70,7 @@
                             <div class="outer0 text-center">
                                 {% csrf_token %}
                                 <script src='https://www.google.com/recaptcha/api.js'></script>
-                                <div class="g-recaptcha" data-sitekey="6LdO1ycUAAAAAIzYwVbR4GbkRk3IC_LuMvD30PRE"></div>
+                                <div class="g-recaptcha" data-sitekey="6LdO1ycUAAAAAIzYwVbR4GbkRk3IC_LuMvD30PRE">
                                   {% if messages %}
                                   <script type="text/javascript">
                                   {% for message in messages %}
@@ -78,6 +78,7 @@
                                   {% endfor %}
                                   </script>
                                   {% endif %}
+                                </div>
                                 </br>
                             </div>
                         </div>
