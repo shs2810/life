@@ -10,3 +10,5 @@ myvenv
 =======
 *.xml
 >>>>>>> oh
+*.pyc
+*.sqlite3
